@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#481804;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    margin:0;
+    width:fill;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:100%;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#C2121F;
+  }
+  
+  .active {
+    background-color: #C3111F;
+  }
+
+  .home{
+    background-color:black;
+    width:100%;
+  }
+  .about{
+    background-color: aqua;
+  }
